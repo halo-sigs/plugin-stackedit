@@ -19,14 +19,14 @@ export default defineConfig({
     emptyOutDir: true,
     lib: {
       entry: "src/index.ts",
-      name: "PluginStarter",
+      name: "PluginStackEdit",
       formats: ["iife"],
       fileName: () => "main.js",
     },
     rollupOptions: {
       external: [
         "vue",
-        "@halo-dev/shared",
+        "@halo-dev/console-shared",
         "@halo-dev/components",
         "vue-router",
       ],

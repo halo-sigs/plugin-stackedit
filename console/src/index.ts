@@ -7,7 +7,8 @@ export default definePlugin({
     "editor:create": () => {
       return [
         {
-          name: "StackEdit",
+          name: "stackedit",
+          displayName: "StackEdit",
           component: markRaw(StackEdit),
           rawType: "markdown",
         },

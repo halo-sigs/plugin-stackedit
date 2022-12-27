@@ -14,7 +14,11 @@ const props = defineProps({
   },
 });
 
-const emit = defineEmits(["update:raw", "update:content"]);
+const emit = defineEmits<{
+  (event: "update:raw", value: string): void;
+  (event: "update:content", value: string): void;
+  (event: "update", value: string): void;
+}>();
 
 const url = "https://stackedit.io/app";
 
@@ -52,6 +56,7 @@ function messageHandler(event: MessageEvent) {
       case "fileChange":
         emit("update:raw", event.data.payload.content.text);
         emit("update:content", event.data.payload.content.html);
+        emit("update", event.data.payload.content.text);
         break;
     }
   }

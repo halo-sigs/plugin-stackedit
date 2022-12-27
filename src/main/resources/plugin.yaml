@@ -10,8 +10,8 @@ spec:
     name: Halo OSS Team
     website: https://github.com/halo-dev
   logo: logo.svg
-  homepage: https://github.com/halo-dev/plugin-starter
+  homepage: https://github.com/halo-sigs/plugin-stackedit
   displayName: "StackEdit"
   description: "StackEdit 是一款开源的在线 Markdown 编辑器，支持实时预览。"
   license:
-    - name: "MIT"
+    - name: "GPL V3"

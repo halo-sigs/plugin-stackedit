@@ -11,6 +11,7 @@ export default definePlugin({
           displayName: "StackEdit",
           component: markRaw(StackEdit),
           rawType: "markdown",
+          logo: "/plugins/PluginStackEdit/assets/logo.svg",
         },
       ];
     },

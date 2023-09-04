@@ -11,8 +11,8 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
   "dependencies": {
-    "@halo-dev/components": "^1.0.0",
-    "@halo-dev/console-shared": "^2.1.0",
+    "@halo-dev/components": "^1.8.0",
+    "@halo-dev/console-shared": "^2.9.0",
     "vue": "^3.2.41"
   },
   "devDependencies": {

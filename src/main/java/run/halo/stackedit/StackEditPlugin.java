@@ -1,8 +1,9 @@
 package run.halo.stackedit;
 
-import org.pf4j.PluginWrapper;
 import org.springframework.stereotype.Component;
+
 import run.halo.app.plugin.BasePlugin;
+import run.halo.app.plugin.PluginContext;
 
 /**
  * @author ryanwang
@@ -11,8 +12,8 @@ import run.halo.app.plugin.BasePlugin;
 @Component
 public class StackEditPlugin extends BasePlugin {
 
-    public StackEditPlugin(PluginWrapper wrapper) {
-        super(wrapper);
+    public StackEditPlugin(PluginContext context) {
+        super(context);
     }
 
     @Override

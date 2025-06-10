@@ -2,14 +2,18 @@ apiVersion: plugin.halo.run/v1alpha1
 kind: Plugin
 metadata:
   name: PluginStackEdit
+  annotations:
+    "store.halo.run/app-id": "app-hDXMG"
 spec:
   enabled: true
-  requires: ">=2.10.0"
+  requires: ">=2.20.0"
   author:
-    name: Halo OSS Team
+    name: Halo
     website: https://github.com/halo-dev
   logo: logo.svg
-  homepage: https://github.com/halo-sigs/plugin-stackedit
+  homepage: https://www.halo.run/store/apps/app-hDXMG
+  repo: https://github.com/halo-dev/plugin-starter
+  issues: https://github.com/halo-sigs/plugin-stackedit/issues
   displayName: "StackEdit"
   description: "StackEdit 是一款开源的在线 Markdown 编辑器，支持实时预览。"
   license:

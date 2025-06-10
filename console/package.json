@@ -16,6 +16,7 @@
     "vue": "^3.2.41"
   },
   "devDependencies": {
+    "@halo-dev/ui-plugin-bundler-kit": "^2.20.21",
     "@rushstack/eslint-patch": "^1.2.0",
     "@types/jsdom": "^20.0.0",
     "@types/node": "^16.18.0",
@@ -34,5 +35,6 @@
     "vite": "^3.1.8",
     "vitest": "^0.24.3",
     "vue-tsc": "^1.0.9"
-  }
+  },
+  "packageManager": "pnpm@10.12.1+sha512.f0dda8580f0ee9481c5c79a1d927b9164f2c478e90992ad268bbb2465a736984391d6333d2c327913578b2804af33474ca554ba29c04a8b13060a717675ae3ac"
 }
